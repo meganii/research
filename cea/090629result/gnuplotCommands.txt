@@ -1,0 +1,22 @@
+gnuplot> plot 'plotWithFitness.dat' u 2:3 w l ti 'x'
+gnuplot> plot 'plotWithFitnessAB.dat' u 2:3 w l ti 'x', 'plotWithFitnessAB.dat' u 2:5 w l ti'B'
+gnuplot> plot 'plotWithFitnessAB.dat' u 1:3 w l ti 'x', 'plotWithFitnessAB.dat' u 1:5 w l ti'B' 
+gnuplot> plot 'plotWithFitnessAB.dat' u 1:3 w l ti 'x', 'plotWithFitnessAB.dat' u 1:5 w l ti'B', 'plotWithFitnessAB.dat' u 1:4 w l ti'A'
+gnuplot> plot 'plotWithFitnessAB.dat' u 1:5 w l ti'B', 'plotWithFitnessAB.dat' u 1:4 w l ti'A'                                          
+gnuplot> plot 'plotWithFitnessAB.dat' u 1:3 w l ti 'x', 'plotWithFitnessAB.dat' u 1:5 w l ti'B', 'plotWithFitnessAB.dat' u 1:4 w l ti'A'
+gnuplot> plot 'plotWithGeneAB.dat' u 1:5 w l ti'A'                                                                                      
+gnuplot> plot 'plotWithGene.dat' u 1:5 w l ti'position B','plotWithGene.dat' u 1:5 w l ti'position B'   
+gnuplot> plot 'plotWithGene.dat' u 1:5 w l ti'position A','plotWithGene.dat' u 1:6 w l ti'position B'    
+gnuplot> plot 'plotWithGene.dat' u 5:1 w l ti'position A','plotWithGene.dat' u 6:1 w l ti'position B'    
+gnuplot> plot 'plotWithGene.dat' u 1:3 w l ti'function A','plotWithGene.dat' u 1:6 w l ti'bar B'         
+gnuplot> plot 'plotWithGeneMini.dat' u 1:3 w l ti'function A','plotWithGeneMini.dat' u 1:6 w l ti'bar B'    
+gnuplot> plot 'plotWithGeneMini.dat' u 1:3 w l ti'function A','plotWithGeneMini.dat' u 1:6 w l ti'bar B', 'plotWithGeneMini.dat' u 1  
+            
+q
+
+gnuplot> plot 'plotWithGeneMini.dat' u 1:3 w l ti'function A','plotWithGeneMini.dat' u 1:6 w l ti'bar B', 'plotWithGeneMini.dat' u 1:4 w l ti'fitnessA'
+gnuplot> plot 'plotWithGeneMini2.dat' u 1:3 w l ti'function A','plotWithGeneMini2.dat' u 1:6 w l ti'bar B', 'plotWithGeneMini2.dat' u 1:4 w l ti'fitnessA', 'plotWithGeneMini2.dat' u 1:8 w l ti'fitnessB'
+gnuplot> plot 'plotWithGeneMini2.dat' u 1:3 w l ti'function A','plotWithGeneMini2.dat' u 1:6 w l ti'bar B', 'plotWithGeneMini2.dat' u 1:4 w l ti'fitnessA', 'plotWithGeneMini2.datgnuplot> plot 'plotWithGeneMini2.dat' u 1:3 w l ti'function A','plotWithGeneMini2.dat' u 1:6 w l ti'minibar B', 'plotWithGeneMini2.dat' u 1:4 w l ti'fitnessA', 'plotWithGeneMini2.dat' u 1:8 w l ti'fitnessB' 
+gnuplot> 
+
+
